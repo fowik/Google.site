@@ -1,4 +1,8 @@
-<style >
+<style>
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
     background-color: #00000000; /* Цвет фона */
     background: #000000;
@@ -12,7 +16,7 @@ body {
 }
 .image-wrap2 {
   width: 1500px;
-  height: 575px;
+  height: 565px;
   border: 0px solid white;
 }
 .header {
@@ -52,9 +56,9 @@ form {
   text-align: bottom;
 }
 input {
-  width: 400px;
+  width: 450px;
   height: 42px;
-  padding-left: 15px;
+  padding-left: 50px;
   border-radius: 42px;
   border: none;
   background: #FFFFFF;
@@ -68,8 +72,8 @@ input {
   background: none;
   border: none;
   position: absolute;
-  top: 319px;
-  left: 715px;
+  top: 322px;
+  left: 700px;
 }
 .d7 button:before{
   content: "\f002";
@@ -141,4 +145,46 @@ ul {
 .button-settings-right{
   text-align: right;
 }
-</style>
+.buttons {
+  background-color: #FFFFFF;
+  border: none;
+  color: solid gray;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: -8px;
+  align="right"
+  }
+.buttons1{
+  border-radius:24px;
+}
+.button-background{
+  background: none;
+  border: none;
+}
+.buttons2 {
+  background-color: #FFFFFF;
+  border: none;
+  color: solid gray;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: -8px;
+  align="right"
+  }
+button{
+  border: none;
+  background: #FFFFFF;
+}
+.button3{
+  background: none;
+  width: auto;
+  height: auto;
+}
+.footer {
+  background: #f2f2f2;
+  box-sizing: border-box;
+  width: auto;
+}
