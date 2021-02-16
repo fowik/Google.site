@@ -2,6 +2,7 @@
 html {
     height: 80%;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     background-color: #ffffff00; /* Цвет фона */
@@ -44,14 +45,44 @@ body {
   hr {
     border: none;
     background-color: lightgray;
-    color: lightgray;
+    color: lightslategray;
     height: 0.5px;
     margin-top: 34px;
    }
-   .otstup-left{
-    margin-left:200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 13px;
-    color:lightgray;
+   .otstup-left-for-about{
+    margin-top:13px;
+    font-size: 16px;
+    color:lightslategray;
    }
-</style>
+   .for-rvt{
+    margin-top:15px;
+    font-size: 15px;
+   }
+   .zagolovok-RVT{
+    margin-top:-5px;
+    font-size: 22px;
+   }
+   .text-under-rvt{
+       color:lightslategray;
+   }
+   a{
+       color: blue;
+   }
+   .looking{
+       position:absolute; 
+       top:20%; 
+       left:18%;
+       margin-top: -75px;
+       margin-left: -150px;
+       width: 600px;
+       border: 0px solid lightslategray;
+   }
+    .links li {
+    float: left;
+    margin-top: -13px;
+    margin-right: 50px;
+    margin-left: -40px;
+    }
+    .links li + li {
+    margin-right: 50px;
+    </style>
