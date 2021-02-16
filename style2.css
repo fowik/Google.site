@@ -35,19 +35,27 @@ body {
       margin-top: -8px;
       width: 637px;
       height: 42px;
-      padding-left: 50px;
+      padding-left: 42px;
       border-radius: 42px;
       border: 1px solid lightgray;
       background: #ffffff;
       position: relative;
       transition: .0s linear;
   }
-  hr {
+  .navbar-hr {
     border: none;
     background-color: lightgray;
     color: lightslategray;
     height: 0.5px;
     margin-top: 34px;
+   }
+   .body-hr {
+    border: none;
+    background-color: lightgray;
+    color: lightslategray;
+    height: 0.5px;
+    margin-top: 34px;
+    margin-top: 5px;
    }
    .otstup-left-for-about{
     margin-top:13px;
@@ -78,11 +86,31 @@ body {
        border: 0px solid lightslategray;
    }
     .links li {
-    float: left;
-    margin-top: -13px;
-    margin-right: 50px;
-    margin-left: -40px;
+        float: left;
+        margin-top: -13px;
+        margin-right: 50px;
+        margin-left: -40px;
     }
     .links li + li {
-    margin-right: 50px;
+        margin-right: 50px;
+    }
+    .table-t {
+        width: 500px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        margin-left: 47.5%;
+        margin-top: 2.5%;
+    }
+    .text-margin{
+        margin-left:10px;
+    }
+    button{
+        background-color: #FFFFFF;;
+        color: solid gray;
+        padding: 10px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+    }
     </style>
+    
