@@ -112,5 +112,111 @@ body {
         display: inline-block;
         font-size: 12px;
     }
-    </style>
+    #footer1 {
+        left: 0mm;
+        right: 0mm;
+        background-color: rgba(0, 0, 0, 0.05);
+        padding: 15px 30px;
+        position: absolute;
+        font-size: 15px;
+        bottom: -35%;
+        border-bottom: 1px solid rgb(197, 197, 197);
+        grid-template-columns: 70px;
+        grid-template-areas: "latvia am boypa upl lm";
+        grid-template-rows: 50px;
+        text-decoration: none;
+        font-family: arial,sans-serif;
+    }
     
+    #latvia {
+        margin-left: 10%;
+        color: rgba(0,0,0,.54);
+        grid-area: about;
+        justify-self: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    
+    #am {
+        color: #3c4043;
+        font-weight: bold;
+        justify-self: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    
+    #boypa {
+        color: rgba(0,0,0,.54);
+        grid-area: boypa;
+        justify-self: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    
+    #upl {
+        color: rgba(0,0,0,.54);
+        grid-area: upl;
+        justify-self: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    
+    #lm {
+        color: rgba(0,0,0,.54);
+        grid-area: lm;
+        justify-self: center;
+        align-self: center;
+        text-decoration: none;
+    }
+    
+    #footer2 {
+        left: 0mm;
+        right:0mm;
+        background-color: rgba(0, 0, 0, 0.05);
+        position: absolute;
+        display: grid;
+        bottom: -40%;
+        grid-template-columns: 80px 100px 80px 60px;
+        grid-template-areas: "help sf privacy terms";
+        grid-template-rows: 50px;
+        font-size: 15px;
+        font-family: arial,sans-serif;
+        padding-left: 10%;
+    }
+    
+    #help {
+        grid-area: help;
+        justify-self: center;
+        align-self: center;
+        font-size: 14px;
+        text-decoration: none;
+        color: rgba(0,0,0,.54);
+    }
+    
+    #sf {
+        color: rgba(0,0,0,.54);
+        grid-area: sf;
+        justify-self: center;
+        align-self: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    
+    #privacy {
+        color: rgba(0,0,0,.54);
+        grid-area: privacy;
+        justify-self: center;
+        align-self: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    
+    #terms {
+        color: rgba(0,0,0,.54);
+        grid-area: terms;
+        justify-self: center;
+        align-self: center;
+        font-size: 14px;
+        text-decoration: none;
+    }
+    </style>
